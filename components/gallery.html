@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section {
+        display: flex;
+        height: 430px;
+        width: 600px;
+    }
+
+    section img {
+        width: 0px;
+        flex-grow: 1;
+        /* Usa el espacio que pueda */
+        object-fit: cover;
+        opacity: .9;
+        transition: .8s ease;
+    }
+
+    img:hover {
+        width: 300px;
+        opacity: 1;
+    }
+</style>
+
+<body>
+    <section>
+        <img src="./guitar.jpg" alt="" srcset="">
+        <img src="./guitarafter.jpg" alt="" srcset="">
+        <img src="./guitargirl.jpg" alt="" srcset="">
+        <img src="./guitarra.jpg" alt="" srcset="">
+    </section>
+</body>
+
+</html>
